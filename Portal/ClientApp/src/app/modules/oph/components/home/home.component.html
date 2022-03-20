@@ -1,0 +1,11 @@
+<app-global-master [iconBarExpand]="iconBarExpand" [sideBarExpand]="sideBarExpand">
+  <ng-template #topBarTemplate>
+    <button class="btn"></button>
+  </ng-template>
+  <ng-template #iconBarTemplate>
+
+  </ng-template>
+  <ng-template #sideBarTemplate>
+    <p-megaMenu [styleClass]="'w-100'" orientation="vertical" [model]="items"></p-megaMenu>
+  </ng-template>
+</app-global-master>
